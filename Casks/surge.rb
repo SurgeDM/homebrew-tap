@@ -14,22 +14,22 @@ cask "surge" do
   on_macos do
     on_intel do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_darwin_amd64.tar.gz"
-      sha256 "29306b216cf29f85c78335df27a6319e82518ffbba322bccbb7bdb951985ab6a"
+      sha256 "d4e3357c98a9072eb4ade69a17849df35665c9b9fa3a852ac8258577fb7c6250"
     end
     on_arm do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_darwin_arm64.tar.gz"
-      sha256 "479e1a0c8ba62fea2dd1ec792fc29faac541062c3965ec8e3aa19093591fa85d"
+      sha256 "4e720f97ec49c5d1e0c1eded6281b13b4537686923b10aff014a8bbe37536285"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_linux_amd64.tar.gz"
-      sha256 "9db363a3f7dec5f2218e8b134bdcf840ec2e6feb7a3e33411604d69aaa5217ae"
+      sha256 "79d2d5f76eba13d166ad51f2766dbac9108aeeb4fb0bc5d1c289dcc5e9c5c709"
     end
     on_arm do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_linux_arm64.tar.gz"
-      sha256 "3ade4fb9945d97fb2ac949016341e951c43e654673cce78ca4735812b634133c"
+      sha256 "4766d2f1d9953e49cfa76ce534fb8b1a82784a765f18f0a9f185bcb336d07537"
     end
   end
 
