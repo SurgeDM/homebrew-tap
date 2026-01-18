@@ -3,7 +3,7 @@ cask "surge" do
   name "surge"
   desc "Surge is an open-source download manager"
   homepage "https://github.com/surge-downloader/surge"
-  version "0.1.7"
+  version "0.1.8"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "surge" do
   on_macos do
     on_intel do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_darwin_amd64.tar.gz"
-      sha256 "f4596a669eada9f1cfb067cd33ad52119b5c5db21e8f2f12aab1377224ed903f"
+      sha256 "29306b216cf29f85c78335df27a6319e82518ffbba322bccbb7bdb951985ab6a"
     end
     on_arm do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_darwin_arm64.tar.gz"
-      sha256 "6f1df65f4c5d03b58026b2fc5e2cd25558bc7a85fa120f1f3e03f34a592320d5"
+      sha256 "479e1a0c8ba62fea2dd1ec792fc29faac541062c3965ec8e3aa19093591fa85d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_linux_amd64.tar.gz"
-      sha256 "f20881b4abf2c75b7b8a545c0c49685637a6489a85100b7fb9989d753a6c8655"
+      sha256 "9db363a3f7dec5f2218e8b134bdcf840ec2e6feb7a3e33411604d69aaa5217ae"
     end
     on_arm do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_linux_arm64.tar.gz"
-      sha256 "f9623ade109d2891f6957635350c40f4a76ff0b2c5e6411055f089e413a8063f"
+      sha256 "3ade4fb9945d97fb2ac949016341e951c43e654673cce78ca4735812b634133c"
     end
   end
 
