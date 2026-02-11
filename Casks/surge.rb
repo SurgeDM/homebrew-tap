@@ -3,7 +3,7 @@ cask "surge" do
   name "surge"
   desc "Surge is a blazing fast, open-source terminal (TUI) download manager built in Go."
   homepage "https://github.com/surge-downloader/surge"
-  version "0.6.0-alpha"
+  version "0.6.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "surge" do
   on_macos do
     on_intel do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_darwin_amd64.tar.gz"
-      sha256 "4119a9d2f470e3f7137d84cbc4075f90245e02bec845e233dc4e94f4cfb2fe71"
+      sha256 "c721ddd98a25eba6b51eb13308d89f1bdacebd927cad5ded2b667991264feeef"
     end
     on_arm do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_darwin_arm64.tar.gz"
-      sha256 "3b9642aa4b2289fd9ca35bfee1fbdcb24f1f226d341cc74d4ec7badca1a397b5"
+      sha256 "68358e163079bdd6711cde89253f4cae0fb204788e774accf99b94e5dd671806"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_linux_amd64.tar.gz"
-      sha256 "d27f88133874c22e09e713eca12f80ae9ccc6d723a1f2f91622cfbcb1ff76104"
+      sha256 "f4106ea4740300591e8982256d62c9b70f2bbafaf90571aa00e41240051a4545"
     end
     on_arm do
       url "https://github.com/surge-downloader/surge/releases/download/v#{version}/surge_#{version}_linux_arm64.tar.gz"
-      sha256 "283c9e195a5cfe0b861d6abfaae719fa6640cd074cf1615960bc089b841d48ee"
+      sha256 "9c5333e28bad1daf1abe5a93e3bdef11dd4e79a99020c92ed16506ba9c5aa44b"
     end
   end
 
