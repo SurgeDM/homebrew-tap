@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report an issue with Surge or its Homebrew tap
+    url: https://github.com/SurgeDM/Surge/issues/new/choose
+    about: Please report bugs and request features in the main Surge repository.
